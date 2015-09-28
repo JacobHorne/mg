@@ -11,6 +11,16 @@ Bluish Bottom Div: #3e4d53
 Light Grey: #e2e1dd;
 */
 
+.panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
+
+.wrap {
+    position: relative;
+}
+
 
 .clearfix:before,
 .clearfix:after {
@@ -40,10 +50,6 @@ img{
 	display: block;
 	max-width: 100%;
 }
-.form{
-	display: none;
-}
-
 
 .topbar{
 	background: url(../img/topbar.png);
@@ -331,6 +337,14 @@ img{
 	.mobile_handshake{
 		display:none;
 	}
+	.grey_div{
+		clear:both;
+	}
+	.grey_div img{
+		width: 60%;
+		max-width:70%; 
+	}
+
 	
 }
 
@@ -345,5 +359,19 @@ img{
 		width: 40%;
 		float:left;
 	}
+
+	.grey_div div{
+		width: 30%;
+		float:left;
+	}
+	.grey_div img{
+		width:100%;
+		border: none;
+		padding: 0px 35px 0px 35px;
+		border-left: 1px solid #424242;
+		border-right:1px solid #424242; 
+
+	}
+
 
 }
