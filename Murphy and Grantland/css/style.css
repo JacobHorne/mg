@@ -1,0 +1,349 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/*Colors
+
+Nav Txt: #d63500  
+Background white: #f7f6f2
+Button Red: #a3331d
+Text Color: #43423c
+Grey_Div: #363636
+Bluish Bottom Div: #3e4d53
+Light Grey: #e2e1dd;
+*/
+
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+/***** GENERIC STYLES *************/
+/**********************************/
+
+body{
+	background-color: #f7f6f2;
+	font-family: "adobe-caslon-semi-bold";
+}
+
+img{
+	margin: 0;
+	padding: 0;
+	display: block;
+	max-width: 100%;
+}
+.form{
+	display: none;
+}
+
+
+.topbar{
+	background: url(../img/topbar.png);
+    background-size: auto 100%;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+.topbar p{
+	width:50%;
+	display:none;
+	color: #f7f6f2;
+	font-family: "adobe-garamond-pro";
+}
+.site_nav{
+	display: none;
+}
+.menu_button{
+	width: 20%;
+	float:left;
+	padding:0px;
+	margin: 0 15% 0 0px;
+}
+.menu_button a{
+	margin-left:5%;
+	background-color: #a3331d; 
+	color: #f7f6f2;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 6px;
+	display: block;
+}
+.menu_button a:hover{
+	color: #a3331d;
+	background-color:#f7f6f2;  
+}
+
+
+.phone_number{
+	float:right;
+	color:#f7f6f2;
+	margin:15px 0 0 0;
+}
+.phone_number a{
+	display:block;
+	padding-right: 10%;
+	
+}
+
+.sign_in{
+	float:right;
+	color:#f7f6f2;
+	margin:15px 10px 0 10px;
+	border-left: 1px solid #f7f6f2;
+	padding-left: 5%;
+}
+.sign_in a{
+}
+
+
+.sign_in a:hover{
+	color: #a3331d;
+}
+
+
+/******************************************************/
+
+.nav_container{
+}
+
+
+/******************************************************/
+
+.main_image{
+	background: url(../img/main_image.png);
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+	height: 350px; 
+}
+
+.main_image p{
+	margin: 0px;
+	padding-top: 100px;
+	color: #f7f6f2;
+	font-size: 1.6em;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.meet_our_team_button{
+	margin: 0 auto;
+	width: 200px;
+	padding-left: 80px;
+}
+
+.meet_our_team_button a{
+	background-color: #a3331d; 
+	color: #f7f6f2;
+	border-radius: 10px;
+	padding: 15px;
+	text-align: center;
+	font-size: .9em;
+}
+.meet_our_team_button a:hover{
+	color: #a3331d;
+	background-color:#f7f6f2;
+}
+
+.pattern{
+	background: url(../img/div_pattern.png);
+	background-size: auto 100%;
+	height: 85px;
+	width: 100%;
+}
+.paragraph_1{
+	margin-top: 50px;
+}
+
+.paragraph_1 h2{
+	font-family: "adobe-garamond-pro";
+	color: #43423c;
+	margin: 0px 2% 20px 2%;
+	font-size: 1.4em;
+}
+.paragraph_1 article{
+	color: #43423c;
+	font-family: "adobe-garamond-pro";
+	padding-bottom: 40px;
+	margin: 0px 2% 30px 2%;
+	border-bottom: 1px solid #e2e1dd;
+	line-height: 1.4em;
+}
+
+.content h2{
+	font-family: "adobe-garamond-pro";
+	color: #43423c;
+	margin: 0px 2% 20px 2%;
+	font-size: 1.4em;
+}
+.content article{
+	color: #43423c;
+	font-family: "adobe-garamond-pro";
+	padding-bottom: 40px;
+	margin: 0px 2% 30px 2%;
+	border-bottom: 1px solid #e2e1dd;
+	line-height: 1.4em;
+}
+/******************************************************/
+
+.mobile_handshake{
+	background: url(../img/handshake.png);
+	background-size: cover;
+	height: 120px;
+}
+
+.mobile_handshake h2{
+	color:#f7f6f2;
+	text-align: center;
+	padding-top: 50px;
+	font-family: Adobe Garamond Pro;
+	font-size: 1.3em;
+}
+.attorney{
+	display: block;
+	margin-top:50px;
+	padding:0px;
+	width:100%;
+}
+.attorney img{
+	display:block;
+	margin: 0 auto;
+	width: 30%;
+}
+
+.attorney h3{
+	font-family: "adobe-garamond-pro";
+	font-size: 1.6em;
+	text-align: center;	
+}
+
+.grey_div{
+	padding:20px;
+	background-color: #363636;
+}
+.grey_div p{
+	font-family: "adobe-garamond-pro";
+	color:#f7f6f2;
+	text-align: center;
+	font-size: 1em;
+}
+
+.grey_div a{
+	display: block;
+	color: #f7f6f2;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+.grey_div img{
+	width: 80%;
+	padding: 30px 0px 30px 0px;
+	border-bottom: 1px solid #424242;
+	border-top: 1px solid #424242;
+}
+
+
+.blue_div{
+	background-color:#3e4d53;
+	padding: 15px 0px 15px 0px; 
+	margin: 0px;
+}
+
+.blue_div a{
+	margin-left: 10%;
+	display: block;
+	float:left;
+	width: 20%;
+	color:#f5f4f1;
+	text-decoration: none;
+}
+
+/***** SPECIFIC STYLES ************/
+/**********************************/
+
+
+@media screen and (min-width: 580px){
+
+	.topbar{
+		height: 50px;
+		margin: 0px;
+		padding:0px;
+	}
+	.topbar p{
+		display:block;
+		float:left;
+		width: 59%;
+		padding-top:15px;
+		margin-top:0px;
+		margin-left: 2%;
+	}
+	.site_nav{
+		display:block;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+
+	.site_nav ul{
+		display:block;
+		padding:0px;
+
+	}
+	.site_nav li{
+		list-style: none;
+		display: inline-block;
+		width:8%;
+		margin:0px 2% 0px 2%;
+		vertical-align: middle;
+	
+	}
+	.site_nav a{
+	text-decoration: none;
+	color:#d63500;
+	font-size: .7em;
+	}
+
+	.menu_button{
+		display: none;
+	}
+	.sign_in{
+		float:right;
+		width:10%;
+		margin: 15px 10px 0 10px;
+	}
+
+	.phone_number{
+		float:right;
+		width: 10%;
+	}
+	.mobile_handshake{
+		display:none;
+	}
+	
+}
+
+@media screen and (min-width: 660px){
+	.site_nav a{
+	text-decoration: none;
+	color:#d63500;
+	font-size: .9em;
+	}
+
+	.content{
+		width: 40%;
+		float:left;
+	}
+
+}
